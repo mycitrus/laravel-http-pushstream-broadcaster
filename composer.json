@@ -3,8 +3,8 @@
   "description": "Laravel broadcast driver for the HTTP Push-stream Nginx module",
   "require": {
     "php": ">=5.3.1",
-    "guzzlehttp/guzzle": "~5.3",
-    "illuminate/support": "~5.1"
+    "guzzlehttp/guzzle": "~6.0",
+    "illuminate/support": "~5.2"
   },
   "autoload": {
     "psr-0": {
