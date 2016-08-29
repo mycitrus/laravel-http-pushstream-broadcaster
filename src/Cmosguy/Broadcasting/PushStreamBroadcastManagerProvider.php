@@ -15,7 +15,7 @@ class PushStreamBroadcastManagerProvider extends ServiceProvider
 
         $this->app->make('Illuminate\Broadcasting\BroadcastManager')->extend('pushstream', function ($app, $config) {
             $client = new Client([
-                'base_url' => $config['base_url'],
+                'base_uri' => $config['base_url'],
                 'query'    => isset($config['access_key']) ? [
                     'access_key' => $config['access_key']
                 ] : null
