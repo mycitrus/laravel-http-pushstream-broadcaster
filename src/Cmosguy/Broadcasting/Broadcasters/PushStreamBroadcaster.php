@@ -38,8 +38,7 @@ class PushStreamBroadcaster implements Broadcaster
             $payload = [
                 'text' => array_merge(['eventtype' => $event], $payload)
             ];
-            $request = $this->client->createRequest('POST', '/pub?id=' . $channel, ['json' => $payload]);
-            $response = $this->client->send($request);
+            $response = $this->client->request('POST', '/pub?id=' . $channel, ['json' => $payload]);
         }
     }
 }
