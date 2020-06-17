@@ -1,7 +1,7 @@
 {
   "name": "citrus/laravel-http-pushstream-broadcaster2",
   "description": "Laravel broadcast driver for the HTTP Push-stream Nginx module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "require": {
     "php": ">=5.3.1",
     "guzzlehttp/guzzle": "~6.0",
